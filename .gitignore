@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Environment and secrets
+.env
+
+# Raw EMS download and its chunks (too large for GitHub, see README)
+incident_dispatch_data.csv
+chunk*.csv
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
